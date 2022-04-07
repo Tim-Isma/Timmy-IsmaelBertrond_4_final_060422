@@ -743,6 +743,19 @@ h4 {
     margin-bottom: 24px;
 }
 
+.img-container {
+    width: 270px;
+    height: 270px;
+}
+
+.img-container {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
