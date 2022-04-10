@@ -23,6 +23,10 @@ body {
     width: 100px;
 }
 
+figcaption {
+    font-size: 14px;
+}
+
 /**/
 
 a,
@@ -695,7 +699,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -777,7 +781,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(0, 0, 0, 0.4);
     padding: 40px 40px 40px 40px;
 }
 
@@ -795,20 +799,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #f5ac89;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #f5ac89!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #f5ac89;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #F3976C!important;
     color: #FFFFFF!important;
 }
 
@@ -1068,5 +1072,10 @@ h4 {
         width: 400px;
         height: 400px;
         object-fit: cover;
+    }
+
+    .col-sm-3 {
+        float: left;
+        width: 25%
     }
 }
